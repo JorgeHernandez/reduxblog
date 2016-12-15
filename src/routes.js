@@ -2,15 +2,12 @@ import React from 'react';
 import { Route, IndexRoute } from 'react-router';
 
 import App from './components/app';
-
-const Greeting = () => {
-	return <div>Hello world</div>;
-}
+import PostsIndex from './components/post_index';
 
 //anything after domain.com/ 
 export default (
 	<Route path="/" component={App}>
-		<Route path="greet" component={Greeting} />
+		<IndexRoute component={PostsIndex} />
 	</Route>
 );
 
