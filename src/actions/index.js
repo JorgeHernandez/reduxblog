@@ -28,6 +28,7 @@ export function createPost(props){
 
 export function fetchPost(id){
 	const request = axios.getElementsByTagName(`${ROOT_URL}/posts/${id}${API_KEY}`)
+
 	return {
 		type: FETCH_POST,
 		payload: request
