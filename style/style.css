@@ -1,3 +1,7 @@
 form a{
 	margin-left: 2em;
 }
+
+.pull-xs-right{
+	float: right;
+}
