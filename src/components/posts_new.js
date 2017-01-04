@@ -21,6 +21,7 @@ class PostsNew extends Component{
 	}
 
 	render(){
+		//TO DO: condense this method!!!
 /*
 		const handleSubmit = this.props.handleSubmit;
 		//const { handleSubmit } = this.props;
